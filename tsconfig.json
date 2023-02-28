@@ -1,0 +1,22 @@
+{
+  "exclude": [
+    "./tests",
+    "./node_modules",
+    "./dist"
+  ],
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "commonjs",
+    "declaration": true,
+    "rootDir": "./src",
+    "strictNullChecks": true,
+    "outDir": "./dist"
+  },
+    "typedocOptions": {
+    "entryPoints": [
+      "./src/ejercicio-1.ts",
+      "./src/ejercicio-2.ts"
+    ],
+    "out": "./docs"
+  }
+}
