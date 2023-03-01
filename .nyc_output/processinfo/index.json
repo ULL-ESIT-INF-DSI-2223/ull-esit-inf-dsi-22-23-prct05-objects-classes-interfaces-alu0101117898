@@ -1,0 +1,1 @@
+{"processes":{"2e958b7a-f645-433c-9af5-03f02abb555d":{"parent":null,"children":["a49190fc-e3c4-4fc1-b899-fa2b94fa4f81"]},"a49190fc-e3c4-4fc1-b899-fa2b94fa4f81":{"parent":"2e958b7a-f645-433c-9af5-03f02abb555d","children":[]}},"files":{"/home/usuario/practica-5/practica5/src/ejercicio-1.ts":["a49190fc-e3c4-4fc1-b899-fa2b94fa4f81"]},"externalIds":{}}
