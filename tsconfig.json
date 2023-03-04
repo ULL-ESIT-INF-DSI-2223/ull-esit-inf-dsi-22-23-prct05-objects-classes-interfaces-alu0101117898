@@ -15,7 +15,9 @@
     "typedocOptions": {
     "entryPoints": [
       "./src/ejercicio-1.ts",
-      "./src/ejercicio-2.ts"
+      "./src/ejercicio-2.ts",
+      "./src/modificacion-1.ts",
+      "./src/modificacion-2.ts"
     ],
     "out": "./docs"
   }
