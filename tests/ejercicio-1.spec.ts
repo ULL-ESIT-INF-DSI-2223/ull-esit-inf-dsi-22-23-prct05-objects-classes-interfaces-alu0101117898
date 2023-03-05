@@ -1,6 +1,6 @@
 import 'mocha';
 import {expect} from 'chai';
-import {BibliotecaMusical, IArtista, ICancion, IDisco} from "../src/ejercicio-1";
+import { BibliotecaMusical, IArtista } from "../src/ejercicio-1/ejercicio-1";
 
 const biblioteca = new BibliotecaMusical();
 
@@ -84,7 +84,7 @@ describe ('--Ejercicio 1 Pruebas--', () => {
   it("biblioteca.calcularNumCanciones(artista2.discografia[0]) returns 2", () => {
     expect(biblioteca.calcularNumCanciones(artista2.discografia[0])).to.be.equal(2);
   });
-  it("biblioteca.calcularNumCanciones(artista1.discografia[0])) returns 2", () => {
+  it("biblioteca.calcularNumCanciones(artista1.discografia[0]) returns 2", () => {
     expect(biblioteca.calcularNumCanciones(artista1.discografia[0])).to.be.equal(2);
   });
 }); 
