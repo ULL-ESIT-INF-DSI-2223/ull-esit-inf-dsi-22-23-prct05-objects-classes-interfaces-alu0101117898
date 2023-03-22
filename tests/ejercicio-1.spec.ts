@@ -1,4 +1,4 @@
-/*import 'mocha';
+import 'mocha';
 import {expect} from 'chai';
 import { BibliotecaMusical, IArtista } from "../src/ejercicio-1/ejercicio-1";
 
@@ -88,4 +88,3 @@ describe ('--Ejercicio 1 Pruebas--', () => {
     expect(biblioteca.calcularNumCanciones(artista1.discografia[0])).to.be.equal(2);
   });
 }); 
-*/

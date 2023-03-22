@@ -1,4 +1,4 @@
-/*import 'mocha';
+import 'mocha';
 import {expect} from 'chai';
 import { Tablero} from "../src/ejercicio-2/tablero";
 
@@ -39,4 +39,3 @@ describe ('--Ejercicio 2 Pruebas-- ', () => {
     expect(tablero3.print()).to.equal(undefined);
   });
 });
-*/
