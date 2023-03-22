@@ -1,12 +1,11 @@
 import 'mocha';
 import {expect} from 'chai';
-import { Fire } from "../../src/PE103-P08/Fuego";
 import { FireCreator } from "../../src/PE103-P08/FuegoCreator";
 
-const CharmanderCreator = new FireCreator("Charmander", "fuego", 3, "agua");
-const Charmander = CharmanderCreator.factoryMethod();
-
 describe ('--Pruebas Pokémon tipo Planta-- ', () => { 
+    const CharmanderCreator = new FireCreator("Charmander", "fuego", 3, "agua");
+    const Charmander = CharmanderCreator.factoryMethod();
+    
     it('Comprobar la instancia del logic para ver si el texto es correcto.', () => {
          expect(CharmanderCreator.logic()).to.be.equal("Soy Charmander, en la Pokédex soy el número 3, de tipo fuego y soy débil contra agua");
     });

@@ -1,12 +1,11 @@
 import 'mocha';
 import {expect} from 'chai';
-
 import { WaterCreator } from "../../src/PE103-P08/AguaCreator";
 
-const SquirtleCreator = new WaterCreator("Squirtle", "agua", 2, "planta");
-const Squirtle = SquirtleCreator.factoryMethod();
-
 describe ('--Pruebas Pokémon tipo Planta-- ', () => { 
+    const SquirtleCreator = new WaterCreator("Squirtle", "agua", 2, "planta");
+    const Squirtle = SquirtleCreator.factoryMethod();
+
     it('Comprobar la instancia del logic para ver si el texto es correcto.', () => {
          expect(SquirtleCreator.logic()).to.be.equal("Soy Squirtle, en la Pokédex soy el número 2, de tipo agua y soy débil contra planta");
     });

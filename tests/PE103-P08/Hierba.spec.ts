@@ -1,12 +1,10 @@
 import 'mocha';
 import {expect} from 'chai';
-import { Grass } from "../../src/PE103-P08/Hierba";
 import { GrassCreator } from "../../src/PE103-P08/HierbaCreator";
 
-const BulbasurCreator = new GrassCreator("Bulbasur", "planta", 1, "fuego");
-const Bulbasur = BulbasurCreator.factoryMethod();
-
 describe ('--Pruebas Pokémon tipo Planta-- ', () => { 
+    const BulbasurCreator = new GrassCreator("Bulbasur", "planta", 1, "fuego");
+    const Bulbasur = BulbasurCreator.factoryMethod();
     it('Comprobar la instancia del logic para ver si el texto es correcto.', () => {
          expect(BulbasurCreator.logic()).to.be.equal("Soy Bulbasur, en la Pokédex soy el número 1, de tipo planta y soy débil contra fuego");
     });
